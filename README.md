@@ -57,10 +57,9 @@ An AS has a globally unique 32-bit number associated with it[1], called an ASN (
 
 ## Possibilities and limitations
 
-* Honeypot problem
-* Don’t really know where the backbone is (to be able to visually trace everything). Only high executives of communcation companies know where it is
-* ASes from outside of schengen might have legal ASes in schengen area as well (e.g. google, facebook, etc.)
-* For traceroute from server, if client is behind VPN or proxy, IP taken from server might not be correct --> better have client send ist own ip
+* Honeypots or traffic redirection in general might result in innacurate data 
+* Autonomous Systems from outside Schengen Area might have legal ASes in Schengen Area as well (e.g. google, facebook, etc.) 
+* If client is either using a VPN or a Proxy connection, this might lead again to data innacuracy 
 * Tracepath is extremely slower compared to traceroute
 
 ## PlanetLAB and EmanicsLab
