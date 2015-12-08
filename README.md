@@ -57,9 +57,9 @@ An AS has a globally unique 32-bit number associated with it[1], called an ASN (
 
 ## Possibilities and limitations
 
-* Honeypots or traffic redirection in general might result in innacurate data 
+* Honeypots or traffic redirection in general might result in inacurate data 
 * Autonomous Systems from outside Schengen Area might have legal ASes in Schengen Area as well (e.g. google, facebook, etc.) 
-* If client is either using a VPN or a Proxy connection, this might lead again to data innacuracy 
+* If client is either using a VPN or a Proxy connection, this might lead again to data inacuracy 
 * Tracepath is extremely slower compared to traceroute
 
 ## PlanetLAB and EmanicsLab
