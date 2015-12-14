@@ -1,6 +1,6 @@
-# [RIPE Atlas](https://atlas.ripe.net/about/)
-
 ![](https://www.ripe.net/++resource++ripe.plonetheme.images/RIPE_NCC_logo.png)
+
+# [RIPE Atlas](https://atlas.ripe.net/about/)
 
 ## What is RIPE Atlas?
 
