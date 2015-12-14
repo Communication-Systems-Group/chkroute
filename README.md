@@ -16,7 +16,7 @@ Please note that you must also install traceroute (tracepath is installed by def
 
 The chkroute utility is currently only available for Linux. It should also work on Mac OS X but it has not been tested.
 
-## Traceroute
+## [Traceroute](https://en.wikipedia.org/wiki/Traceroute)
 
 Traceroute, by default, sends a sequence of User Datagram Protocol (UDP) packets addressed to a destination host; ICMP Echo Request or TCP SYN packets can also be used. The time-to-live (TTL) value, also known as hop limit, is used in determining the intermediate routers being traversed towards the destination. Routers decrement TTL values of packets by one when routing and discard packets whose TTL value has reached zero, returning the ICMP error message ICMP Time Exceeded. Common default values for TTL are 128 (Windows OS) and 64 (Unix-based OS).
 
