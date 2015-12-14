@@ -4,6 +4,14 @@
 
 chkroute is a tool to analyze asymmetric Schengen routing compliance. The tool uses bash, traceroute and/or tracepath, and a geo-location server running at the premises of University of Zurich.
 
+## Dependencies
+
+The following dependencies are required in order to successfully use chkroute:
+
+* Bash
+* Netcat
+* Tracepath/traceroute
+
 ## Installation
 
 The chkroute utility consists of a shell script only (client side). After downloading, the archive must unzipped and then the script must be made executable using chmod ```a+x chkroute.sh```.
