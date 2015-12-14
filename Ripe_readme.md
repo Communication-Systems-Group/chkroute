@@ -44,7 +44,7 @@ The cost for the individual result depends on what type of measurement you condu
 
 ### Ping and ping6
 
-Unit cost = ```N * (int(S/1500) + 1)```
+Unit cost = N * (int(S/1500) + 1)
 Where:
 N - number of packet in the train (default: 3), S - packet size (default: 48 octets)
 Which makes the default unit cost = 3
