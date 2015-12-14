@@ -6,7 +6,7 @@ chkroute is a tool to analyze asymmetric Schengen routing compliance. The tool u
 
 ## Installation
 
-The chkroute utility consists of a shell script only (client side). After downloading, the archive must unzipped and then the script must be made executable using chmod a+x chkroute.sh
+The chkroute utility consists of a shell script only (client side). After downloading, the archive must unzipped and then the script must be made executable using chmod ```a+x chkroute.sh```
 
 On the server side, two scripts are being executed to run the asymmetric measurement: the main script called start.sh is to be executed, which in turn calls the run.sh script. After downloading, the archive must unzipped, copied to the remote server and then the scripts must be made executable using chmod a+x start.sh and chmod a+x run.sh
 
