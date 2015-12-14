@@ -22,11 +22,11 @@ Traceroute, by default, sends a sequence of User Datagram Protocol (UDP) packets
 
 Traceroute works by sending packets with gradually increasing TTL value, starting with TTL value of one. The first router receives the packet, decrements the TTL value and drops the packet because it then has TTL value zero. The router sends an ICMP Time Exceeded message back to the source. The next set of packets are given a TTL value of two, so the first router forwards the packets, but the second router drops them and replies with ICMP Time Exceeded. Proceeding in this way, traceroute uses the returned ICMP Time Exceeded messages to build a list of routers that packets traverse, until the destination is reached and returns an ICMP Echo Reply message.
 
-## Tracepath
+## [Tracepath](http://www.howtogeek.com/108511/how-to-work-with-the-network-from-the-linux-terminal-11-commands-you-need-to-know/)
 
 The tracepath command is similar to traceroute, but it doesn’t require root privileges. It’s also installed by default on Ubuntu, while traceroute isn’t. tracepath traces the network path to a destination you specify and reports each “hop” along the path. If you’re having network problems or slowness, tracepath can show you where the network is failing or where the slowness is occurring.
 
-## Autonomous systems
+## [Autonomous systems](https://www.cs.rutgers.edu/~pxk/352/notes/autonomous_systems.html)
 
 An Autonomous System (AS) is a collection of routers whose prefixes and routing policies are under common administrative control. This could be a network service provider, a large company, a university, a division of a company, or a group of companies. The AS represents a connected group of one or more blocks of IP addresses (called IP prefixes) that have been assigned to that organization and provides a single routing policy to systems outside the AS. Autonomous Systems create a two-level hierarchy for routing in the Internet.
 
@@ -34,9 +34,9 @@ Routers within an AS use an Interior Gateway Protocol (IGP), which handles routi
 
 To get traffic from a host in one AS to a host in another AS, the autonomous systems need to be connected. Most ASes do not share a direct link with each other, in which case data traffic may be routed through the networks of other ASes that agree to carry the traffic. BGP version 4, the Border Gateway Protocol, is the de facto standard EGP for inter-AS routing. At some point in the future, the Internet is expected to adopt IDRP, the OSI Inter-Domain Routing protocol.
 
-## AS assignment
+## [AS assignment](https://www.cs.rutgers.edu/~pxk/352/notes/autonomous_systems.html)
 
-An AS has a globally unique 32-bit number associated with it[1], called an ASN (Autonomous System Number). If an Autonomous System exchanges routing information with other Autonomous Systems on the public Internet, it needs to have a unique ASN. This number is used in exchanging exterior routing information, particularly in identifying paths through multiple ASes via BGP. AS numbers are assigned to organizations by the Regional Internet Registry (RIR) for their country.
+An AS has a globally unique 32-bit number associated with it, called an ASN (Autonomous System Number). If an Autonomous System exchanges routing information with other Autonomous Systems on the public Internet, it needs to have a unique ASN. This number is used in exchanging exterior routing information, particularly in identifying paths through multiple ASes via BGP. AS numbers are assigned to organizations by the Regional Internet Registry (RIR) for their country.
 
 ## Possibilities and limitations
 
