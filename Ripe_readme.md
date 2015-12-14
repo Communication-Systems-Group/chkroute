@@ -1,5 +1,7 @@
 # Ripe Atlas
 
+![](https://www.ripe.net/++resource++ripe.plonetheme.images/RIPE_NCC_logo.png)
+
 ## Score system
 
 ### RIPE Atlas - The Credit System
