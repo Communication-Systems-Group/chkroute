@@ -1,5 +1,7 @@
 # chkroute
 
+![](http://www.fp7-flamingo.eu/wp-content/uploads/2014/12/flamingo.png)
+
 chkroute is a tool to analyze asymmetric Schengen routing compliance. The tool uses bash, traceroute and/or tracepath, and a geo-location server running at the premises of University of Zurich.
 
 ## Installation
