@@ -14,6 +14,7 @@ then
         echo "Traceroute raw data was successfully received, running chkroute shortly..."
 else
         echo "Raw data to run chkroute from server is empty, closing chkroute..."
+        rm raw_data.txt
         exit
 fi
 
