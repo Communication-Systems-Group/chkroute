@@ -16,7 +16,7 @@ The following dependencies are required in order to successfully use chkroute:
 
 The chkroute utility consists of a shell script only (client side). After downloading, the archive must unzipped and then the script must be made executable using chmod ```a+x chkroute.sh```.
 
-On the server side, two scripts are being executed to run the asymmetric measurement: the main script called ```start.sh``` is to be executed, which in turn calls the ```run.sh script```. The .deb file takes care of automatically unpacking and preparing those 2 scripts on the server. Download the .deb file, move it to your server and run from the folder where it is located the following command: ```sudo dpkg -i asymmetric-chkroute_1.0_all.deb```.
+On the server side, two scripts are being executed to run the asymmetric measurement: the main script called ```start.sh``` is to be executed, which in turn calls the ```run.sh script```. The .deb file takes care of automatically unpacking and preparing those 2 scripts on the server. Download the .deb file, move it to your server and run from the folder where it is located the following command: ```sudo dpkg -i asymmetric-chkroute_1.0_all.deb```. The server side scripts will be automatically unpacked in ```/home/asymmetric-chkroute```.
 
 Please note that you must also install traceroute (tracepath is installed by default on most unix distributions) if it is not installed.
 
